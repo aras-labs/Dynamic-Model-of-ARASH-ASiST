@@ -5,13 +5,12 @@ ARASH-ASiST: A Parallelogram Mechanism for Intraocular Eye Surgery Training, sub
 More information about ARASH-ASiST:
 http://aras.kntu.ac.ir/research-themes/surgical-robotics/arash-asist/
 
-cff-version: 1.2.0
+cff-version: 1.0.0
 message: "If you use this software, please cite it as below."
 authors:
-  - family-names: Druskat
-    given-names: Stephan
+  - family-names: Ali
+    given-names: Hassani
     orcid: https://orcid.org/0000-0003-4925-7248
-title: "My Research Software"
-version: 2.0.4
-doi: 10.5281/zenodo.1234
-date-released: 2021-08-11
+title: "Dynamic-Model-of-ARASH-ASiST"
+version: 1.0.0
+date-released: 2021-09-13
