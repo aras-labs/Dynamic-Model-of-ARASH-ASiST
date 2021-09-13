@@ -10,7 +10,7 @@ message: "If you use this software, please cite it as below."
 authors:
   - family-names: Ali
     given-names: Hassani
-    orcid: https://orcid.org/0000-0003-4925-7248
+    orcid: https://orcid.org/0000-0003-2420-1299
 title: "Dynamic-Model-of-ARASH-ASiST"
 version: 1.0.0
 date-released: 2021-09-13
