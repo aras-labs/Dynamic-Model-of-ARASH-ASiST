@@ -1,0 +1,1991 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+      		<SubSystem>
+		<Name>Desire</Name>
+		<xPCName>Final_Block/Desire</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Encoder</Name>
+		<xPCName>Final_Block/Encoder</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Error</Name>
+		<xPCName>Final_Block/Error</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Error3</Name>
+		<xPCName>Final_Block/Error3</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Filter1</Name>
+		<xPCName>Final_Block/Filter1</xPCName>
+		
+		
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>Filter1/Gain</xpcblkName>
+            <SLblockPath>Final_Block/Filter1/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Filter1</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain1</blkName>
+            <xpcblkName>Filter1/Gain1</xpcblkName>
+            <SLblockPath>Final_Block/Filter1/Gain1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Filter1</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain2</blkName>
+            <xpcblkName>Filter1/Gain2</xpcblkName>
+            <SLblockPath>Final_Block/Filter1/Gain2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Filter1</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Integrator</blkName>
+            <xpcblkName>Filter1/Integrator</xpcblkName>
+            <SLblockPath>Final_Block/Filter1/Integrator</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Filter1</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Integrator1</blkName>
+            <xpcblkName>Filter1/Integrator1</xpcblkName>
+            <SLblockPath>Final_Block/Filter1/Integrator1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Filter1</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Integrator2</blkName>
+            <xpcblkName>Filter1/Integrator2</xpcblkName>
+            <SLblockPath>Final_Block/Filter1/Integrator2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Filter1</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>Filter1/Gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Filter1</SubSystemName>
+                <sigLabel>dq1</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain1</sigName>
+              <xpcsigName>Filter1/Gain1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Filter1</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain2</sigName>
+              <xpcsigName>Filter1/Gain2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Filter1</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Integrator</sigName>
+              <xpcsigName>Filter1/Integrator</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Filter1</SubSystemName>
+                <sigLabel>q1</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Integrator1</sigName>
+              <xpcsigName>Filter1/Integrator1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Filter1</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Integrator2</sigName>
+              <xpcsigName>Filter1/Integrator2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Filter1</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum</sigName>
+              <xpcsigName>Filter1/Sum</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Filter1</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum1</sigName>
+              <xpcsigName>Filter1/Sum1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Filter1</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum2</sigName>
+              <xpcsigName>Filter1/Sum2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Filter1</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>PD Controller</Name>
+		<xPCName>Final_Block/PD Controller</xPCName>
+		
+		
+            <block>
+            <blkName>P of controller1</blkName>
+            <xpcblkName>PD Controller/P of controller1</xpcblkName>
+            <SLblockPath>Final_Block/PD Controller/P of controller1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[3, 3]</dim>  
+		  <SubSystemName>Final_Block/PD Controller</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>P of controller2</blkName>
+            <xpcblkName>PD Controller/P of controller2</xpcblkName>
+            <SLblockPath>Final_Block/PD Controller/P of controller2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[3, 3]</dim>  
+		  <SubSystemName>Final_Block/PD Controller</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>P of controller3</blkName>
+            <xpcblkName>PD Controller/P of controller3</xpcblkName>
+            <SLblockPath>Final_Block/PD Controller/P of controller3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[3, 3]</dim>  
+		  <SubSystemName>Final_Block/PD Controller</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>P of controller1</sigName>
+              <xpcsigName>PD Controller/P of controller1</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block/PD Controller</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>P of controller2</sigName>
+              <xpcsigName>PD Controller/P of controller2</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block/PD Controller</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>P of controller3</sigName>
+              <xpcsigName>PD Controller/P of controller3</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block/PD Controller</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum2</sigName>
+              <xpcsigName>PD Controller/Sum2</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block/PD Controller</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Robot Model</Name>
+		<xPCName>Final_Block/Robot Model</xPCName>
+		
+		
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Robot Model/Constant</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant1</blkName>
+            <xpcblkName>Robot Model/Constant1</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Constant1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant10</blkName>
+            <xpcblkName>Robot Model/Constant10</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Constant10</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant2</blkName>
+            <xpcblkName>Robot Model/Constant2</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Constant2</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant4</blkName>
+            <xpcblkName>Robot Model/Constant4</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Constant4</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant5</blkName>
+            <xpcblkName>Robot Model/Constant5</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Constant5</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant6</blkName>
+            <xpcblkName>Robot Model/Constant6</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Constant6</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant8</blkName>
+            <xpcblkName>Robot Model/Constant8</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Constant8</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant9</blkName>
+            <xpcblkName>Robot Model/Constant9</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Constant9</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>Robot Model/Gain</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain1</blkName>
+            <xpcblkName>Robot Model/Gain1</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain10</blkName>
+            <xpcblkName>Robot Model/Gain10</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain10</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain11</blkName>
+            <xpcblkName>Robot Model/Gain11</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain11</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain12</blkName>
+            <xpcblkName>Robot Model/Gain12</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain12</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain13</blkName>
+            <xpcblkName>Robot Model/Gain13</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain13</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain14</blkName>
+            <xpcblkName>Robot Model/Gain14</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain14</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain17</blkName>
+            <xpcblkName>Robot Model/Gain17</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain17</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain2</blkName>
+            <xpcblkName>Robot Model/Gain2</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain22</blkName>
+            <xpcblkName>Robot Model/Gain22</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain22</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain23</blkName>
+            <xpcblkName>Robot Model/Gain23</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain23</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain3</blkName>
+            <xpcblkName>Robot Model/Gain3</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain4</blkName>
+            <xpcblkName>Robot Model/Gain4</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain4</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain5</blkName>
+            <xpcblkName>Robot Model/Gain5</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain5</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain6</blkName>
+            <xpcblkName>Robot Model/Gain6</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain6</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain7</blkName>
+            <xpcblkName>Robot Model/Gain7</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain7</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain8</blkName>
+            <xpcblkName>Robot Model/Gain8</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain8</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain9</blkName>
+            <xpcblkName>Robot Model/Gain9</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Gain9</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>OC1</blkName>
+            <xpcblkName>Robot Model/OC1</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/OC1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>OC2</blkName>
+            <xpcblkName>Robot Model/OC2</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/OC2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>OC3</blkName>
+            <xpcblkName>Robot Model/OC3</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/OC3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>OC_K1</blkName>
+            <xpcblkName>Robot Model/OC_K1</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/OC_K1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>OC_K2</blkName>
+            <xpcblkName>Robot Model/OC_K2</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/OC_K2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>OC_K3</blkName>
+            <xpcblkName>Robot Model/OC_K3</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/OC_K3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>OC_K4</blkName>
+            <xpcblkName>Robot Model/OC_K4</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/OC_K4</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>OC_K5</blkName>
+            <xpcblkName>Robot Model/OC_K5</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/OC_K5</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>OC_K6</blkName>
+            <xpcblkName>Robot Model/OC_K6</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/OC_K6</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>OC_K7</blkName>
+            <xpcblkName>Robot Model/OC_K7</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/OC_K7</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>OC_K8</blkName>
+            <xpcblkName>Robot Model/OC_K8</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/OC_K8</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Saturation</blkName>
+            <xpcblkName>Robot Model/Saturation</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Saturation</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>UpperLimit</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>LowerLimit</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Saturation1</blkName>
+            <xpcblkName>Robot Model/Saturation1</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Saturation1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>UpperLimit</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>LowerLimit</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Saturation2</blkName>
+            <xpcblkName>Robot Model/Saturation2</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/Saturation2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>UpperLimit</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>LowerLimit</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>UDP Configure2</blkName>
+            <xpcblkName>Robot Model/UDP Configure2</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/UDP Configure2</SLblockPath>
+            <isSrc>[0 0 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 4]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 4]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 4]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P8</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P9</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P10</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P11</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P12</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>UDP Receive1</blkName>
+            <xpcblkName>Robot Model/UDP Receive1</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/UDP Receive1</SLblockPath>
+            <isSrc>[1 0 2]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 11]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 7]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P9</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>UDP Send2</blkName>
+            <xpcblkName>Robot Model/UDP Send2</xpcblkName>
+            <SLblockPath>Final_Block/Robot Model/UDP Send2</SLblockPath>
+            <isSrc>[0 2 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 11]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 11]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Constant4</sigName>
+              <xpcsigName>Robot Model/Constant4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Data Type Conversion2</sigName>
+              <xpcsigName>Robot Model/Data Type Conversion2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Data Type Conversion3</sigName>
+              <xpcsigName>Robot Model/Data Type Conversion3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Data Type Conversion4</sigName>
+              <xpcsigName>Robot Model/Data Type Conversion4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Data Type Conversion5</sigName>
+              <xpcsigName>Robot Model/Data Type Conversion5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>Robot Model/Gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain1</sigName>
+              <xpcsigName>Robot Model/Gain1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                <sigLabel>V2</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain10</sigName>
+              <xpcsigName>Robot Model/Gain10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain11</sigName>
+              <xpcsigName>Robot Model/Gain11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain12</sigName>
+              <xpcsigName>Robot Model/Gain12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain13</sigName>
+              <xpcsigName>Robot Model/Gain13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                <sigLabel>mA2</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain14</sigName>
+              <xpcsigName>Robot Model/Gain14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain17</sigName>
+              <xpcsigName>Robot Model/Gain17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain2</sigName>
+              <xpcsigName>Robot Model/Gain2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain22</sigName>
+              <xpcsigName>Robot Model/Gain22</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                <sigLabel>mA3</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain23</sigName>
+              <xpcsigName>Robot Model/Gain23</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain3</sigName>
+              <xpcsigName>Robot Model/Gain3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                <sigLabel>V1</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain4</sigName>
+              <xpcsigName>Robot Model/Gain4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain5</sigName>
+              <xpcsigName>Robot Model/Gain5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                <sigLabel>V3</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain6</sigName>
+              <xpcsigName>Robot Model/Gain6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain7</sigName>
+              <xpcsigName>Robot Model/Gain7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain8</sigName>
+              <xpcsigName>Robot Model/Gain8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain9</sigName>
+              <xpcsigName>Robot Model/Gain9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>OC1</sigName>
+              <xpcsigName>Robot Model/OC1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>OC2</sigName>
+              <xpcsigName>Robot Model/OC2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>OC3</sigName>
+              <xpcsigName>Robot Model/OC3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>OC_K1</sigName>
+              <xpcsigName>Robot Model/OC_K1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>OC_K2</sigName>
+              <xpcsigName>Robot Model/OC_K2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>OC_K3</sigName>
+              <xpcsigName>Robot Model/OC_K3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>OC_K4</sigName>
+              <xpcsigName>Robot Model/OC_K4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>OC_K5</sigName>
+              <xpcsigName>Robot Model/OC_K5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>OC_K6</sigName>
+              <xpcsigName>Robot Model/OC_K6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>OC_K7</sigName>
+              <xpcsigName>Robot Model/OC_K7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>OC_K8</sigName>
+              <xpcsigName>Robot Model/OC_K8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Saturation</sigName>
+              <xpcsigName>Robot Model/Saturation</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                <sigLabel>Bit_Final</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Saturation1</sigName>
+              <xpcsigName>Robot Model/Saturation1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Saturation2</sigName>
+              <xpcsigName>Robot Model/Saturation2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Byte Packing 2</sigName>
+              <xpcsigName>Robot Model/Byte Packing 2</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Byte Unpacking 1</sigName>
+              <xpcsigName>Robot Model/Byte Unpacking 1</xpcsigName>
+              <sigWidth>4</sigWidth>
+              <sigDim>[4, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>UDP Receive1/p1</sigName>
+              <xpcsigName>Robot Model/UDP Receive1/p1</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>UDP Receive1/p2</sigName>
+              <xpcsigName>Robot Model/UDP Receive1/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum</sigName>
+              <xpcsigName>Robot Model/Sum</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum1</sigName>
+              <xpcsigName>Robot Model/Sum1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum2</sigName>
+              <xpcsigName>Robot Model/Sum2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum3</sigName>
+              <xpcsigName>Robot Model/Sum3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                <sigLabel>theta1_m_degree</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum4</sigName>
+              <xpcsigName>Robot Model/Sum4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                <sigLabel>theta2_m_degree</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum5</sigName>
+              <xpcsigName>Robot Model/Sum5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum6</sigName>
+              <xpcsigName>Robot Model/Sum6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Robot Model</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Subsystem</Name>
+		<xPCName>Final_Block/Subsystem</xPCName>
+		
+		
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>Subsystem/Gain</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain7</blkName>
+            <xpcblkName>Subsystem/Gain7</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem/Gain7</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain8</blkName>
+            <xpcblkName>Subsystem/Gain8</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem/Gain8</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>Subsystem/Gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain7</sigName>
+              <xpcsigName>Subsystem/Gain7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain8</sigName>
+              <xpcsigName>Subsystem/Gain8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Subsystem1</Name>
+		<xPCName>Final_Block/Subsystem1</xPCName>
+		
+		
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>Subsystem1/Gain</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem1/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem1</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain1</blkName>
+            <xpcblkName>Subsystem1/Gain1</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem1/Gain1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem1</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain7</blkName>
+            <xpcblkName>Subsystem1/Gain7</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem1/Gain7</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem1</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>Subsystem1/Gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem1</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain1</sigName>
+              <xpcsigName>Subsystem1/Gain1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem1</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain7</sigName>
+              <xpcsigName>Subsystem1/Gain7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem1</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Subsystem2</Name>
+		<xPCName>Final_Block/Subsystem2</xPCName>
+		
+		
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>Subsystem2/Gain</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem2/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem2</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain7</blkName>
+            <xpcblkName>Subsystem2/Gain7</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem2/Gain7</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem2</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain8</blkName>
+            <xpcblkName>Subsystem2/Gain8</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem2/Gain8</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem2</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>Subsystem2/Gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem2</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain7</sigName>
+              <xpcsigName>Subsystem2/Gain7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem2</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain8</sigName>
+              <xpcsigName>Subsystem2/Gain8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem2</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Subsystem3</Name>
+		<xPCName>Final_Block/Subsystem3</xPCName>
+		
+		
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>Subsystem3/Gain</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem3/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem3</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain1</blkName>
+            <xpcblkName>Subsystem3/Gain1</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem3/Gain1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem3</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain7</blkName>
+            <xpcblkName>Subsystem3/Gain7</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem3/Gain7</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem3</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>Subsystem3/Gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem3</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain1</sigName>
+              <xpcsigName>Subsystem3/Gain1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem3</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain7</sigName>
+              <xpcsigName>Subsystem3/Gain7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem3</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Subsystem4</Name>
+		<xPCName>Final_Block/Subsystem4</xPCName>
+		
+		
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>Subsystem4/Gain</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem4/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem4</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain1</blkName>
+            <xpcblkName>Subsystem4/Gain1</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem4/Gain1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem4</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain7</blkName>
+            <xpcblkName>Subsystem4/Gain7</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem4/Gain7</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem4</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>Subsystem4/Gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem4</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain1</sigName>
+              <xpcsigName>Subsystem4/Gain1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem4</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain7</sigName>
+              <xpcsigName>Subsystem4/Gain7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem4</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Subsystem5</Name>
+		<xPCName>Final_Block/Subsystem5</xPCName>
+		
+		
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>Subsystem5/Gain</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem5/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem5</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain1</blkName>
+            <xpcblkName>Subsystem5/Gain1</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem5/Gain1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem5</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain7</blkName>
+            <xpcblkName>Subsystem5/Gain7</xpcblkName>
+            <SLblockPath>Final_Block/Subsystem5/Gain7</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>Final_Block/Subsystem5</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>Subsystem5/Gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem5</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain1</sigName>
+              <xpcsigName>Subsystem5/Gain1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem5</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain7</sigName>
+              <xpcsigName>Subsystem5/Gain7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block/Subsystem5</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>dq_Desire</Name>
+		<xPCName>Final_Block/dq_Desire</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
+		<Name>dq_view</Name>
+		<xPCName>Final_Block/dq_view</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Fianl traj</Name>
+		<xPCName>Final_Block/Fianl traj</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
+		<Name>MATLAB Function</Name>
+		<xPCName>Final_Block/MATLAB Function</xPCName>
+		
+		
+
+		</SubSystem>
+
+      
+			  
+			  
+              <signal>
+              <sigName>Fianl traj/p1</sigName>
+              <xpcsigName>Fianl traj/p1</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block</SubSystemName>
+                <sigLabel>Xddot_Desire</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Fianl traj/p2</sigName>
+              <xpcsigName>Fianl traj/p2</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block</SubSystemName>
+                <sigLabel>q_Desire</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Fianl traj/p3</sigName>
+              <xpcsigName>Fianl traj/p3</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block</SubSystemName>
+                <sigLabel>dq_Desire</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>MATLAB Function</sigName>
+              <xpcsigName>MATLAB Function</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block</SubSystemName>
+                <sigLabel>qdot</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Clock5</sigName>
+              <xpcsigName>Clock5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>Final_Block</SubSystemName>
+                <sigLabel>Time</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>TmpSignal ConversionAtHiddenToAsyncQueue_InsertedFor_Robot Model_at_outport_0Inport1</sigName>
+              <xpcsigName>TmpSignal ConversionAtHiddenToAsyncQueue_InsertedFor_Robot Model_at_outport_0Inport1</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block</SubSystemName>
+                <sigLabel>q_Calculated</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>TmpSignal ConversionAtHiddenToAsyncQueue_InsertedFor_Subsystem1_at_outport_0Inport1</sigName>
+              <xpcsigName>TmpSignal ConversionAtHiddenToAsyncQueue_InsertedFor_Subsystem1_at_outport_0Inport1</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block</SubSystemName>
+                <sigLabel>q_View</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>TmpSignal ConversionAtHiddenToAsyncQueue_InsertedFor_Subsystem2_at_outport_0Inport1</sigName>
+              <xpcsigName>TmpSignal ConversionAtHiddenToAsyncQueue_InsertedFor_Subsystem2_at_outport_0Inport1</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block</SubSystemName>
+                <sigLabel>Error_View</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>TmpSignal ConversionAtHiddenToAsyncQueue_InsertedFor_Subsystem3_at_outport_0Inport1</sigName>
+              <xpcsigName>TmpSignal ConversionAtHiddenToAsyncQueue_InsertedFor_Subsystem3_at_outport_0Inport1</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block</SubSystemName>
+                <sigLabel>dq_View</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>TmpSignal ConversionAtHiddenToAsyncQueue_InsertedFor_Subsystem4_at_outport_0Inport1</sigName>
+              <xpcsigName>TmpSignal ConversionAtHiddenToAsyncQueue_InsertedFor_Subsystem4_at_outport_0Inport1</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block</SubSystemName>
+                <sigLabel>dq_Desire_View</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>TmpSignal ConversionAtHiddenToAsyncQueue_InsertedFor_Subsystem5_at_outport_0Inport1</sigName>
+              <xpcsigName>TmpSignal ConversionAtHiddenToAsyncQueue_InsertedFor_Subsystem5_at_outport_0Inport1</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block</SubSystemName>
+                <sigLabel>ddq_Desire_View</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>TmpSignal ConversionAtHiddenToAsyncQueue_InsertedFor_Subsystem_at_outport_0Inport1</sigName>
+              <xpcsigName>TmpSignal ConversionAtHiddenToAsyncQueue_InsertedFor_Subsystem_at_outport_0Inport1</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block</SubSystemName>
+                <sigLabel>Desired_View</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum1</sigName>
+              <xpcsigName>Sum1</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum6</sigName>
+              <xpcsigName>Sum6</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3, 1]</sigDim>
+			  <SubSystemName>Final_Block</SubSystemName>
+                <sigLabel>Error</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+</Root>
