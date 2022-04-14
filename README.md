@@ -5,7 +5,7 @@ One of the most challenging operations in clinical practice is intraocular eye s
 ARASH:ASiST has been developed in Advanced Robotics and Automated Systems (ARAS) for eye surgery training. This device has 3-DOF haptic interface, developed for use in a dual haptic eye surgery training system [4]. Considering its mechanical features, this device provides the main required minimally invasive vitrectomy surgery properties, such as the remote center of motion and favorable kinematic workspace. ARASH:ASiST provides more than 90◦ in both rotational motions, 43:6mm in the insertion direction of the surgical instrument. Furthermore, it is equipped with two symmetrical weight counterbalances for weight compensation of the mechanism.
 
 <p align="center">
-<img src="Pictures:Adams.png" width="258"/> <img src="Pictures:Prototype.png" width="300"/>
+<img src="Pictures/Adams.png" width="258"/> <img src="Pictures/Prototype.png" width="300"/>
 </p>
 
 # Kinematic and Dynamic Analysis
@@ -15,6 +15,7 @@ ARASH:ASiST has been developed in Advanced Robotics and Automated Systems (ARAS)
 Paper abstract: This article elaborate on the kinematic and dynamic analysis of ARASH:ASiST, ”ARAS Haptic System for Eye Surgery Training”, which is developed for vitrectomy eye surgery training. The mechanism selection of this system is reviewed first, in order to assist such a precise intraocular eye surgery training. Then the kinematics and dynamics analysis of the proposed haptic system is investigated. To verify the reported result, a prototype of ARASH:ASiST is modeled in MSC-ADAMS , and the results of the dynamic formulation are validated. Finally, a common model-based controller is implemented on the real prototype, and it is verified that with such controller a suitable accuracy of 200 μm is attainable for the surgical instrument.
 
  **Paper Link:** https://ieeexplore.ieee.org/document/9663516
+
 
 
 # Dynamic Parameter Identification 
