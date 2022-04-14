@@ -21,7 +21,7 @@ ARASH:ASiST has been developed in **Advanced Robotics and Automated Systems (ARA
 </p>
 
 
-# Dynamic Parameter Identification 
+# Dynamic Parameter Calibration
 
 [2] A. Hassani et al., "On The Dynamic Calibration and Trajectory Control of ARASH:ASiST," 2022 8th International Conference on Control, Instrumentation and Automation (ICCIA), 2022, pp. 1-6, doi: 10.1109/ICCIA54998.2022.9737158.
 
@@ -30,6 +30,6 @@ ARASH:ASiST has been developed in **Advanced Robotics and Automated Systems (ARA
  **Paper Link:** https://ieeexplore.ieee.org/document/9737158
 
 <p align="center">
-<img src="Pictures/Identification.png" height="400"/> 
+<img src="Pictures/Identification.png" height="450"/> 
 </p>
 
