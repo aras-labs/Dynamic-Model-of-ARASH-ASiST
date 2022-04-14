@@ -17,7 +17,7 @@ ARASH:ASiST has been developed in **Advanced Robotics and Automated Systems (ARA
  **Paper Link:** https://ieeexplore.ieee.org/document/9663516
 
 <p align="center">
-<img src="Pictures/Mechanism.png" height="300"/> <img src="Pictures/WorkSpace.png" height="300"/>
+<img src="Pictures/Mechanism.png" height="400"/> <img src="Pictures/WorkSpace.png" height="400"/>
 </p>
 
 
@@ -30,6 +30,6 @@ ARASH:ASiST has been developed in **Advanced Robotics and Automated Systems (ARA
  **Paper Link:** https://ieeexplore.ieee.org/document/9737158
 
 <p align="center">
-<img src="Pictures/Identification.png" height="300"/> 
+<img src="Pictures/Identification.png" height="500"/> 
 </p>
 
