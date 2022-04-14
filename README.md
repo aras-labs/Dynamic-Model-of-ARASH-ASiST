@@ -1,8 +1,8 @@
 # ARASH ASiST (ARAS Haptic System for Eye Surgery Training) Dynamic Modeld, related to the article:
 
-One of the most challenging operations in clinical practice is intraocular eye surgery. Human eyes are delicate and highly complex organs, and the accuracy required for most intraocular surgeries ranges from 50 − 100µm [1]. Typically, intraocular surgeries are considered as a micro-surgical procedure, and during surgery, surgeons must carefully control the position and force of a small surgical instrument in an area of limited workspace with a delicate positioning accuracy. In order to address these challenges, robotic technology may come to the rescue. By using robot–assisted surgery, surgeons can perform microsurgeries with high levels of accuracy and dexterity, in a comfortable and ergonomic environment.
+One of the most challenging operations in clinical practice is intraocular eye surgery. Human eyes are delicate and highly complex organs, and the accuracy required for most intraocular surgeries ranges from 50 − 100µm. Typically, intraocular surgeries are considered as a micro-surgical procedure, and during surgery, surgeons must carefully control the position and force of a small surgical instrument in an area of limited workspace with a delicate positioning accuracy. In order to address these challenges, robotic technology may come to the rescue. By using robot–assisted surgery, surgeons can perform microsurgeries with high levels of accuracy and dexterity, in a comfortable and ergonomic environment.
 
-ARASH:ASiST has been developed in Advanced Robotics and Automated Systems (ARAS) for eye surgery training. This device has 3-DOF haptic interface, developed for use in a dual haptic eye surgery training system [4]. Considering its mechanical features, this device provides the main required minimally invasive vitrectomy surgery properties, such as the remote center of motion and favorable kinematic workspace. ARASH:ASiST provides more than 90◦ in both rotational motions, 43:6mm in the insertion direction of the surgical instrument. Furthermore, it is equipped with two symmetrical weight counterbalances for weight compensation of the mechanism.
+ARASH:ASiST has been developed in **Advanced Robotics and Automated Systems (ARAS)** for eye surgery training. This device has 3-DOF haptic interface, developed for use in a dual haptic eye surgery training system [4]. Considering its mechanical features, this device provides the main required minimally invasive vitrectomy surgery properties, such as the remote center of motion and favorable kinematic workspace. ARASH:ASiST provides more than 90◦ in both rotational motions, 43:6mm in the insertion direction of the surgical instrument. Furthermore, it is equipped with two symmetrical weight counterbalances for weight compensation of the mechanism.
 
 <p align="center">
 <img src="Pictures/Adams.png" width="258"/> <img src="Pictures/Prototype.png" width="300"/>
@@ -16,6 +16,9 @@ Paper abstract: This article elaborate on the kinematic and dynamic analysis of 
 
  **Paper Link:** https://ieeexplore.ieee.org/document/9663516
 
+<p align="center">
+<img src="Pictures/Mechanism.png" width="258"/> <img src="Pictures/WorkSpace.png" width="300"/>
+</p>
 
 
 # Dynamic Parameter Identification 
