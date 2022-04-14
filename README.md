@@ -1,6 +1,6 @@
 # ARASH ASiST (ARAS Haptic System for Eye Surgery Training) Dynamic Modeld, related to the article:
 
-<img src="Prototype.png" width="200"/> <img src="Adams.png" width="300"/>
+<img src="Adams.png" width="300"/> <img src="Prototype.png" width="300"/>
 
 
 # Explicit Dynamic Model
