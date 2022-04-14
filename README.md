@@ -1,5 +1,7 @@
 # ARASH ASiST (ARAS Haptic System for Eye Surgery Training) Dynamic Modeld, related to the article:
 
+<img src="Prototype.png" width="200"/> <img src="Adams.png" width="300"/>
+
 
 # Explicit Dynamic Model
 
@@ -19,4 +21,3 @@ Paper abstract: This article investigates the dynamic parameter calibration of A
  **Paper Link:** https://ieeexplore.ieee.org/document/9737158
 
 
-<img src="https://openclipart.org/image/2400px/svg_to_png/28580/kablam-Number-Animals-1.png" width="200"/> <img src="https://openclipart.org/download/71101/two.svg" width="300"/>
