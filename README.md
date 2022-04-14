@@ -17,7 +17,7 @@ Paper abstract: This article elaborate on the kinematic and dynamic analysis of 
  **Paper Link:** https://ieeexplore.ieee.org/document/9663516
 
 <p align="center">
-<img src="Pictures/Mechanism.png" height="258"/> <img src="Pictures/WorkSpace.png" height="600"/>
+<img src="Pictures/Mechanism.png" height="300"/> <img src="Pictures/WorkSpace.png" height="300"/>
 </p>
 
 
